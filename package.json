@@ -2,7 +2,7 @@
     "name": "doml",
     "displayName": "DOML",
     "description": "Language support for the DOML programming language",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "publisher": "BraedonWW",
     "icon": "images/doml-icon.png",
     "repository": {
