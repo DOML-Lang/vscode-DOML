@@ -1,0 +1,44 @@
+{
+    "name": "doml",
+    "displayName": "DOML",
+    "description": "Language support for the DOML programming language",
+    "version": "0.1.0",
+    "publisher": "BraedonWW",
+    "icon": "images/doml-icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DOML-Lang/vscode-doml"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "activationEvents": [
+        "onLanguage:doml"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "languages": [
+            {
+                "id": "doml",
+                "extensions": [
+                    ".doml",
+                    ".odoml"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "doml",
+                "scopeName": "source.doml",
+                "path": "./syntaxes/doml.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vscode": "^1.1.5"
+    }
+}
