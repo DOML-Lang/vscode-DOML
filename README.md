@@ -1,4 +1,4 @@
-# vscode-zig
+# vscode-doml
 
 [DOML](https://github.com/DOML-Lang/DOML/) support for Visual Studio Code.
 
